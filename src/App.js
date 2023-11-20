@@ -6,6 +6,7 @@ import EmailSubscriber from './np3-questions/cycleOne/EmailSubscriber.js';
 import DynamicCart from './np3-questions/cycleOne/DynamicCart.js';
 import SortByPrice from './np3-questions/cycleOne/SortByPrice.js';
 import Counter from './GreatFrontEnd/user-interface/Counter.js';
+import ContactForm from './GreatFrontEnd/user-interface/ContactForm.js';
 
 export default function App() {
   return (
@@ -15,7 +16,8 @@ export default function App() {
       {/* <EmailSubscriber /> */}
       {/* <DynamicCart /> */}
       {/* <SortByPrice /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <ContactForm />
     </div>
   );
 }
