@@ -14,3 +14,19 @@ h1 {
   font-weight: 800;
   font-size: 1.5rem;
 }
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.carousel-img {
+  height: 400px;
+  width: 1200px;
+}
+
+.carousel-button {
+  height: fit-content;
+}

@@ -8,6 +8,7 @@ import SortByPrice from './np3-questions/cycleOne/SortByPrice.js';
 import Counter from './GreatFrontEnd/user-interface/Counter.js';
 import ContactForm from './GreatFrontEnd/user-interface/ContactForm.js';
 import Accordian from './np3-questions/cycleOne/Accordian.js';
+import ImageCarousel from './np3-questions/cycleOne/ImageCarousel.js';
 
 export default function App() {
   return (
@@ -19,7 +20,8 @@ export default function App() {
       {/* <SortByPrice /> */}
       {/* <Counter /> */}
       {/* <ContactForm /> */}
-      <Accordian />
+      {/* <Accordian /> */}
+      <ImageCarousel />
     </div>
   );
 }
